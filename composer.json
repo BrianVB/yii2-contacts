@@ -1,0 +1,25 @@
+{
+    "name": "brianvb/yii2-contacts",
+    "description": "Base elements required for a CRM or contacts management system",
+    "type": "yii2-extension",
+    "require": {
+        "brianvb/yii2-block": "@dev",
+        "brianvb/yii2-location": "@dev",
+        "brianvb/yii2-utilities": "@dev",
+        "brianvb/yii2-user": "@dev",
+        "brianvb/yii2-vue": "@dev",
+        "yiisoft/yii2": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "BrianVB",
+            "email": "vanburen.brian@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "yiicontacts\\": "src"
+        }
+    }
+}
